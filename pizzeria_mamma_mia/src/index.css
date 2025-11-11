@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: column;
+}
+
+.boxMenu{
+  align-items: center;
+  height: 35px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.boxTotal{
+  align-items: center;
+  height: 35px;
+  border: 1px solid aqua;
+  border-radius: 10px;
+}
+
+.home{
+  width: 100%;
+  height: 280px;
+  color: white;
+  background-image: url(./assets/images/Header.jpg);
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.formCenter{
+  margin: 40px;
+  display: flex;
+  justify-content: center;  
+}
+
+.formulario{
+  width: 450px;
+  display: flex;
+  flex-direction: column;   
+}
+
+.error{
+  color: red;
+}
+
+.pizzas{
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.btnCarrito{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.footer{
+  height: 70px;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.textFooter{
+  margin-bottom: 0px;
+}
